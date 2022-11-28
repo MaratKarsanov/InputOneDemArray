@@ -11,6 +11,7 @@ namespace InputOneDirArray
         static void Main(string[] args)
         {
             //ввод элементов массива в строку(сокращенно)
+            Console.WriteLine("Введите количество элементов массива: ");
             int n = Convert.ToInt32(Console.ReadLine());
             int[] mas = new int[n];
             string[] tempMass = Console.ReadLine().Split();
